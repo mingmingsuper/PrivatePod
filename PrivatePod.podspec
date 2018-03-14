@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "PrivatePod"
+  s.name         = "PrivatePod2018"
   s.version      = "0.0.2"
   s.summary      = "测试私有库引用frameworks."
 
