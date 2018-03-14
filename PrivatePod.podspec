@@ -110,6 +110,10 @@ Pod::Spec.new do |s|
 
   s.libraries = "c++", "sqlite3.0", "z"
 
+  s.vendored_libraries  = '**/*.a'
+
+  s.vendored_frameworks = '**/*.framework'  
+
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
